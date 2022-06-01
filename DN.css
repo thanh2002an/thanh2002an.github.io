@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+*{
+    padding: 0; margin: 0;box-sizing: border-box;border: none;outline: none;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Giày/DN,DK/a4.jpg") ;
+    background-size: 100% 100%;
+}
+/*----------------------============================--*/
+
+/*----------------------============================--*/
+.container{
+    width: 1400px;
+    height: 700px;
+    background-image: url("Giày/DN,DK/a2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(3,3,3,0.5);
+    backdrop-filter:blur(5px);
+}
+form h2{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 32px;
+    color: rgb(148, 250, 245);
+}
+form #username,form #password{
+    height: 51px;
+    width: 400px;
+    margin: 0px auto;
+    border: 3px solid white;
+    padding-left: 23px;
+    margin-bottom: 5px;
+}
+form .username_error,form .password_error{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #2ed3f0;
+   display: none;
+}
+form .submit-FB {
+    width: 284px;
+    height: 45px;
+    margin: 0px auto;
+    margin-top: 10px;
+    background: #2260f0;
+    color: azure;
+    font-weight:bold;
+}
+.submit-FB a{
+    color: azure;
+}
+#or{
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+}
+form .submit-DN {
+    width: 284px;
+    height: 45px;
+    margin: 0px auto;
+    margin-top: -5px;
+    background: red;
+    color: azure;
+    font-weight: bold;
+}
+.submit-DN a{
+    color: azure;
+}
+form .submit-DK {
+    width: 284px;
+    height: 45px;
+    margin: 0px auto;
+    margin-top: 10px;
+    background: #2260f0;
+    color: azure;
+    font-weight:bold;
+}
+.submit-DK a{
+    color: azure;
+}
+form .forgot{
+   text-align: right;
+    color: bisque;
+    font-weight: bolder;
+
+}
+.mobile2{
+    background-color: #ecde85;
+    width: 250px;
+    margin-left: 20px;
+}
+
+ul.mobile2{
+    margin-top: -200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.mobile2 > li > a{
+    text-decoration: none;
+    display: block;
+    color:rgb(8, 8, 8);
+    font-weight: 700;
+    transition: transform 0.2s;
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+ul.mobile2 > li#sp > ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+ul.mobile2 > li#sp > ul > li > a{
+    font-size: 18px;
+    color:rgb(205, 83, 83);
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 35px;
+}
+ul.mobile2 > li#sp > ul > li > a > img{
+    border-radius: 50px;
+}
+ul.mobile2 > li#sp > ul{
+    list-style: none;
+}
+ul.mobile2 > li > a:hover{
+    color:red;
+    transform: scale(1,1.2);
+}
+ul.mobile2 > li#sp > ul > li > a:hover{
+    color:wheat;
+}
+label {
+    color: rgb(243, 207, 140);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
